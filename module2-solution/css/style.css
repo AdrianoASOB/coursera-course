@@ -1,3 +1,76 @@
-p{
-	
+/* Desktop */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div h1{
+	margin: 20px;
+	text-align:center;
+}
+
+@media (min-width: 992px ){
+	.col1,.col2,.col3{
+		float:left;
+		width:33%;
+	}
+	.big1,.big2,.big3 {
+		height: 200px;
+	}
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:991px){
+	.col1,.col2,.col3{
+		float: left;
+	}
+	.col1,.col2{
+		width:50%;
+	}
+	.col3{
+		width:100%;
+	}
+	.big1,.big2{
+		height: 200px;
+	}
+}
+
+/* Mobile */
+@media (max-width: : 767px){
+	.col1,.col2,.col3{
+		float: left;
+		width: 100%;
+	}
+}
+
+.col1,.col2,.col3{
+}
+
+.big1,.big2,.big3 {
+	overflow: auto;
+	border:1px solid red;
+	margin: 10px;
+}
+
+div>div>section {
+	text-align-last: right;
+	padding-bottom: 10px
+}
+
+div>p{
+	padding: 5px;
+}
+
+.bigguy{
+	position: absolute;
+	display: block;
+	width: 100%;
+}
+
+.title{
+	border:1px solid red;
+	display:inline;
+	background-color: grey;
 }
