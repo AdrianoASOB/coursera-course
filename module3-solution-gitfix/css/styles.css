@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #DCDCDC;
+}
+
+.container, .navbar-header{
+	width:100%;
+}
+
+/** HEADER **/
+
+.navbar{
+	border: 0px;
+}
+header .container{
+	background-color: #87ceeb;
+	border-radius: 0;
+	border-bottom: 2px solid black;
+	height:100px;
+}
+
+.navbar-brand{
+	padding-top:10px;
+}
+
+.navbar-brand h1{
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top:0px;
+}
+
+#nav-list a {
+	background-color: #DCDCDC;
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-toggle{
+	margin-top:-25px;
+	margin-right:-20px;
+}
+
+#collapsable-nav{
+	background-color: #DCDCDC;
+}
+
+li{
+	border-bottom:3px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/** END OF HEADERLEGION **/
+
+.container{
+	margin-top:-20px;
+}
+
+.container h2,.row{
+	color:black;
+}
+
+.row{
+	margin-top:40px;
+}
+
+.category-tile{
+	margin-bottom:25px;
+	margin-left:50px;
+	margin-right:50px;
+	background-color:#808080;
+	text-align:center
+}
+
+.category-tile span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.category-tile p{
+	margin:10px;
+	text-align:left;
+}
