@@ -13,7 +13,7 @@ body {
 .navbar{
 	border: 0px;
 }
-.container{
+header .container{
 	background-color: #87ceeb;
 	border-radius: 0;
 	border-bottom: 2px solid black;
@@ -68,4 +68,36 @@ li{
 }
 .navbar-header button.navbar-toggle {
   clear: both;
+}
+
+/** END OF HEADERLEGION **/
+
+.container{
+	margin-top:-20px;
+}
+
+.container h2,.row{
+	color:black;
+}
+
+.row{
+	margin-top:40px;
+}
+
+.category-tile{
+	margin-bottom:25px;
+	margin-left:50px;
+	margin-right:50px;
+	background-color:#808080;
+	text-align:center
+}
+
+.category-tile span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.category-tile p{
+	margin:10px;
+	text-align:left;
 }
